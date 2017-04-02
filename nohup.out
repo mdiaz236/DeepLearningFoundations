@@ -191,3 +191,117 @@ I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_li
 [I 01:58:20.785 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
 I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
 [I 02:02:01.658 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[C 02:03:55.326 NotebookApp] received signal 15, stopping
+[I 02:03:55.328 NotebookApp] Shutting down kernels
+[I 02:03:55.429 NotebookApp] Kernel shutdown: 427e75b9-37da-433e-8177-4b7d541611f4
+[I 02:03:55.430 NotebookApp] Kernel shutdown: 3b57ff5c-ace6-4c8d-b3b3-e00b7a7f5d3d
+[I 16:12:57.085 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 16:12:57.942 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 16:12:57.942 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 16:12:57.957 NotebookApp] Serving notebooks from local directory: /home/carnd/DeepLearningFoundations
+[I 16:12:57.957 NotebookApp] 0 active kernels 
+[I 16:12:57.957 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 16:12:57.957 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:13:11.617 NotebookApp] 302 GET / (69.119.106.209) 0.72ms
+[I 16:13:21.459 NotebookApp] Kernel started: 802af91f-ac77-43c0-b0c6-401313b447cf
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:910] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GRID K520
+major: 3 minor: 0 memoryClockRate (GHz) 0.797
+pciBusID 0000:00:03.0
+Total memory: 3.94GiB
+Free memory: 3.91GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[W 16:14:38.456 NotebookApp] /home/carnd/DeepLearningFoundations/tv-script-generation/save.index is not UTF-8 encoded
+[W 16:14:38.456 NotebookApp] 400 GET /api/contents/tv-script-generation/save.index?type=file&format=text&_=1491149679993 (69.119.106.209) 1.75ms referer=http://54.167.66.255:8888/edit/tv-script-generation/save.index
+[W 16:14:45.586 NotebookApp] /home/carnd/DeepLearningFoundations/tv-script-generation/save.meta is not UTF-8 encoded
+[W 16:14:45.587 NotebookApp] 400 GET /api/contents/tv-script-generation/save.meta?type=file&format=text&_=1491149687135 (69.119.106.209) 4.60ms referer=http://54.167.66.255:8888/edit/tv-script-generation/save.meta
+[W 16:14:55.552 NotebookApp] /home/carnd/DeepLearningFoundations/tv-script-generation/save.data-00000-of-00001 is not UTF-8 encoded
+[W 16:14:55.553 NotebookApp] 400 GET /api/contents/tv-script-generation/save.data-00000-of-00001?type=file&format=text&_=1491149696687 (69.119.106.209) 216.48ms referer=http://54.167.66.255:8888/edit/tv-script-generation/save.data-00000-of-00001
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:15:21.592 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2471 get requests, put_count=2429 evicted_count=1000 eviction_rate=0.411692 and unsatisfied allocation rate=0.462161
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 3708 get requests, put_count=3729 evicted_count=1000 eviction_rate=0.268168 and unsatisfied allocation rate=0.270227
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+[I 16:17:21.637 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:19:21.657 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:21:21.751 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:23:21.736 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:25:21.765 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:27:21.781 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:29:21.795 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:31:21.736 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:33:21.721 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:35:21.740 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:37:21.742 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:39:21.740 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:41:21.750 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:43:27.467 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:46:48.786 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[W 16:52:22.254 NotebookApp] WebSocket ping timeout after 119757 ms.
+[I 16:53:11.728 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:55:11.554 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:57:11.555 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:57:15.389 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 16:57:31.857 NotebookApp] Kernel interrupted: 802af91f-ac77-43c0-b0c6-401313b447cf
+[I 16:58:15.143 NotebookApp] Kernel restarted: 802af91f-ac77-43c0-b0c6-401313b447cf
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:910] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GRID K520
+major: 3 minor: 0 memoryClockRate (GHz) 0.797
+pciBusID 0000:00:03.0
+Total memory: 3.94GiB
+Free memory: 3.91GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:59:11.474 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:01:03.776 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 3296 get requests, put_count=3169 evicted_count=1000 eviction_rate=0.315557 and unsatisfied allocation rate=0.372269
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 8632 get requests, put_count=8669 evicted_count=1000 eviction_rate=0.115354 and unsatisfied allocation rate=0.114226
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+[I 17:03:11.590 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:05:12.750 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:07:12.740 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:09:12.742 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:11:12.750 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:13:08.223 NotebookApp] Kernel interrupted: 802af91f-ac77-43c0-b0c6-401313b447cf
+[I 17:13:12.713 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 17:15:12.823 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:17:12.770 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:19:12.776 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:21:12.777 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 17:23:13.361 NotebookApp] Saving file at /tv-script-generation/dlnd_tv_script_generation.ipynb
+[I 17:25:56.619 NotebookApp] Interrupted...
+[I 17:25:56.619 NotebookApp] Shutting down kernels
+[I 17:25:57.421 NotebookApp] Kernel shutdown: 802af91f-ac77-43c0-b0c6-401313b447cf

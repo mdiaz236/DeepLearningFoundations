@@ -3,3 +3,5 @@ image-classification/cifar-10-batches-py/*
 image-classification/cifar-10-python.tar.gz
 image-classification/preprocess_*
 weight-initialization/__pycache__/*
+tv-script-generation/save.data*
+
