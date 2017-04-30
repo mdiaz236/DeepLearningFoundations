@@ -1,10 +1,10 @@
-image-classification/__pycache__/*
 image-classification/cifar-10-batches-py/*
 image-classification/cifar-10-python.tar.gz
 image-classification/preprocess_*
-weight-initialization/__pycache__/*
+*/__pycache__/*
 tv-script-generation/save.data*
 embeddings/data/
 embeddings/text8.zip
 transfer-learning/flower_photos.tar.gz
 transfer-learning/flower_photos
+.ipynb_checkpoints/
